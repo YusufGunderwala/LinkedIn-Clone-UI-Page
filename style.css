@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f2fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header1 img{
+object-fit: contain;
+height: 40px;
+margin-right:  10px;
+/* margin-left: 50px; */
+}
+
+.header{
+width: 100%;
+display: flex;
+position: sticky;
+top: 0;
+z-index: 999;
+justify-content: space-evenly;
+border-bottom: 0.1px solid lightgray;
+padding: 10px;
+background-color: white;
+}
+
+.header1{
+    display: flex;
+
+}
+
+.header2{
+    display: flex;
+}
+
+.search{
+padding: 10px;
+display: flex;
+align-items: center;
+border-radius: 5px;
+height : 20px;
+color: gray;
+background-color: #eef3f8;
+
+}
+
+.search input{
+    outline:none;
+    border: none;
+    background: none;
+    /* width: 195px; */
+}
+
+.navimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.navimg:hover{
+color: black;
+}
+
+.navimg h3{
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.navimage{
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    
+}
+.pic{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: relative;
+    left: 929px;
+    top: 2px;
+}
+
+
+
+
+
+.sidem{
+    display: flex;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin-left:  20px;
+    margin-right: 20px;
+}
+.sidebar{
+    position: sticky;
+    top: 80px;
+    flex: 0.3;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+.sidebart img{
+    margin-bottom: -20px;
+    width: 100%;
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+
+}
+.sidebart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    
+
+}
+.topicon{
+    font-size: 40px;
+}  
+
+
+.sidebarb{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sidebarstat {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebarstat p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+.sideno {
+    font-weight: bold;
+    color: rgb(67, 67, 221)!important;
+}
+.sidebart h4 {
+color: gray;
+font-size: 12px;
+margin-top: 5px;
+}
+.sidebart h2 {
+    margin-top: 19px;
+    font-size: 18px;
+    }
+
+
+
+
+
+
+.feed {
+    flex: 0.5;
+    margin: 0px 20px;
+}
+.feed_inputc {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feedinput {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding:10px;
+    color: gray;
+    padding-left: 15px;
+}
+.feedinput form{
+    display: flex;
+    width: 100%;
+}
+.feedinput form input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+
+}
+.feed_inputop{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.inputoption{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+}
+.inputoption:hover{
+background-color: rgba(245, 245, 245, 0.74);
+border-radius: 10px;
+}
+
+.inputoption h4{
+    margin-left: 5px;
+}
+
+
+
+
+ .post{
+    background-color:white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.posthd{
+    display: flex;
+    margin-bottom: 10px;
+}
+.name{
+    margin-left: 10px;
+}
+.name p{
+font-size: 12px;
+color: gray;
+
+}
+
+.name h2{
+    font-size: 19px;
+
+} 
+
+.postbody pre{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 100%;
+}
+
+.postimg img{
+    width: 100%;
+}
+.inputoptions h4{
+    display: flex;
+    justify-content:start;
+}
